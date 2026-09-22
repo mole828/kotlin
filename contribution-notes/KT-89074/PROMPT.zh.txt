@@ -1,0 +1,25 @@
+请验证我的 Kotlin 取整修复，先识别本机 OS/CPU 架构和可用资源。
+
+仓库：https://github.com/mole828/kotlin
+源码分支：fix/kt-89074-multiplatform
+固定修复提交：f389eea7a8bb1c4fd88e09c3eb6037811361eeae
+只有测试的提交：c82eca7a00cefe9ef1a7fecbd73203d570046671
+
+另请拉取 validation/kt-89074-multiplatform 分支，读取
+contribution-notes/KT-89074/README.md、RESULTS.md 和 REASONING.md。
+在独立 checkout/worktree 中按说明实际构建并验证，不覆盖现有工作。
+没有 JetBrains IDE MCP 时允许使用 CLI。
+
+优先验证本机 Native 目标（M2=macos_arm64，Windows x64=mingw_x64，
+Linux x64=linux_x64），使用本分支源码构建的 stdlib，运行完整 MathTest.kt，
+分别验证默认模式和 -opt，并对照只有测试的提交确认原错误能复现。
+再按资源补 JVM/JS 或 Wasm-JS/Wasm-WASI；资源允许时运行官方完整
+Native stdlibTest。任务名和筛选方式按 README 核对。
+
+记录提交号、真实 target、编译器/runtime/stdlib 来源、命令与退出码、
+通过/失败/跳过数。将环境失败、编译失败、测试断言失败和未运行分开记录。
+不要把发行版 stdlib 的结果或仅编译成功当作分支测试通过；不要为通过而
+改预期值或跳过新测试。发现问题先定位并提供建议，不自动提交或推送。
+
+请输出 ROUNDING-VALIDATION-<os>-<arch>.md，并保留日志，最后给出简短结论。
+本任务不创建/重开上游 PR，也不向上游发评论。

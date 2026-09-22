@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="wasmJsNodeTest.test.numbers.FloatMathTest" tests="16" skipped="1" failures="0" errors="0" timestamp="2026-09-22T04:13:22.159Z" hostname="ubuntu-dev" time="0.019">
+  <properties/>
+  <testcase name="floatRangeConversion[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="trigonometric[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="hyperbolic[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicSin[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicCos[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicTan[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="cubeRoots[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="powers[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="logarithms[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="rounding[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="roundingConversion[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="roundingConversionNearHalfIntegers[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="roundingConversionAtIntegralPrecision[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="roundingConversionAtIntegerLimits[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="absoluteValue[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="signs[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="wasmJsNodeTest.test.numbers.IntegerMathTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-22T04:13:22.179Z" hostname="ubuntu-dev" time="0.0">
+  <properties/>
+  <testcase name="intSigns[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <testcase name="absoluteValue[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <testcase name="longSigns[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <testcase name="longAbsoluteValue[wasmJs, node]" classname="wasmJsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

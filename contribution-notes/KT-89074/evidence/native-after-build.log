@@ -1,0 +1,2 @@
+HEAD=f389eea7a8bb1c4fd88e09c3eb6037811361eeae; 501 sources; compiler=/home/mole/repo/kotlin-contributions/kotlin/kotlin-native/runtime/build/nativeDistributionV2.5.0-dev-7307/bin/konanc; output=/home/mole/repo/kotlin-contributions/kotlin-rounding-contribution/multiplatform-2026-09-22/native-stdlib-after
+EXIT=0
