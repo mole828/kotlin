@@ -4,7 +4,7 @@
 半整数相邻值、已经为整数的大数、Int/Long 范围边界、NaN 和无穷大。
 这份说明不是上游 PR 描述，也不代表所有平台已通过。
 
-算法说明见 [REASONING.md](REASONING.md)，本机记录见 [RESULTS.md](RESULTS.md)。
+算法说明见 [REASONING.md](REASONING.md)，最新本机记录见 [REVISION-2.md](REVISION-2.md)，首版记录见 [RESULTS.md](RESULTS.md)。
 
 ## 固定版本
 
@@ -12,7 +12,8 @@
 - 改动分支：`fix/kt-89074-multiplatform`
 - 上游基线：`9b478d0341465fabaad64b3701d40b504c1a047f`
 - 只有测试的提交：`c82eca7a0`（Native/Wasm 仍是旧实现）
-- 修复提交：f389eea7a
+- 当前源码提交：a1e50f1f36ad0ad5d36379b5a24743aa11d4dffc
+- 首版实现提交：`f389eea7a`（其 Float 边界测试在 JS 上有错误假设）
 - 本说明放在另一个分支 `validation/kt-89074-multiplatform`，不属于待评审源码补丁。
 
 保护已有工作，使用独立 checkout/worktree。确认实际 HEAD，不要顺手更新到新的
@@ -46,18 +47,24 @@ JDK 可由仓库自动供应；失败时再按错误配置 JDK_17_0、JDK_25_0 �
 
 ```text
 :kotlin-stdlib:jvmTest --tests test.numbers.*MathTest
-:kotlin-stdlib:jsNodeTest --tests test.numbers.*MathTest :kotlin-stdlib:jsNodeLatestTargetTest --tests test.numbers.*MathTest
+:kotlin-stdlib:jsNodeTest --tests 'test.numbers.*MathTest.*' :kotlin-stdlib:jsNodeLatestTargetTest --tests 'test.numbers.*MathTest.*'
 :kotlin-stdlib:wasmJsNodeTest --tests test.numbers.*MathTest
-:kotlin-stdlib:wasmWasiWasmtimeTest --tests test.numbers.*MathTest
+:kotlin-stdlib:wasmWasiWasmtimeTest
 ```
 
 JS 的 `jsNodeTest` 还依赖 latestTarget 测试运行。上面显式列出两个任务并
 分别传入筛选参数，不依赖命令行选项自动传播。两组报告分别记录。
-在 shell 中请给 `test.numbers.*MathTest` 加引号，避免通配符被 shell 展开。
-Wasm-WASI 在此基线使用 Wasmtime，不是 Node。若任务不支持 `--tests`，
-按其真实配置运行，不要编造筛选参数或将任务不存在视为测试通过。
+JS 使用包含方法名的 `test.numbers.*MathTest.*`；旧的类级模式可能零测试成功。
+两组 JS 报告都必须实际发现 36 项数学测试，六个新增方法必须执行，不能只看退出码。
+在 shell 中请给筛选表达式加引号，避免通配符被 shell 展开。
+Wasm-WASI 在此基线使用 Wasmtime。macOS 报告中的筛选没有收窄运行范围，
+因此上面明确运行此任务全量，再单独统计三个 MathTest 类。记录实际执行数量，
+不要将任务全量结果称为仅运行 MathTest。筛选失效的运行器原因尚未独立确认。
+Gradle 可以供应 Node/Wasmtime；PATH 中没有它们不代表任务无法运行。
+从实际启动命令核对运行时路径和版本，不要只记录系统 node --version。
 
 Linux/macOS 使用 `./gradlew`，Windows PowerShell 使用 `./gradlew.bat`。
+PowerShell 中将每个 `-P...` 参数整体放入单引号，避免属性名被拆分。
 以下参数是本次资源受限主机的参考，不是统一构建要求：
 
 ```text
@@ -119,6 +126,11 @@ kotlin-native/dist/bin/konanc libraries/stdlib/test/numbers/MathTest.kt -languag
 如果修复前后结果完全一致，先核查链接库和缓存，确认测试执行到了改过的代码。
 
 ## 修复前后对照
+
+本轮修订只明确了 Float32 测试边界输入。JS 上比较 `f389eea7a` 与当前提交，
+是在验证测试构造修正，不是在修复 JS 的 roundToInt 实现。
+Native/Wasm 上这些边界输入的值保持相同；仍可用 `c82eca7a0` 对照取整算法。
+注意当前 MathTest 文件与旧提交不同，不要声称两者文件哈希一致。
 
 保留修复版日志之后，切换到只有测试的提交 `c82eca7a0`，重新构建该版本 stdlib
 并执行同样测试。也可先测试旧版，再切到修复版。两个版本的日志/产物分目录存放。

@@ -1,5 +1,8 @@
 # Local validation — KT-89074 multiplatform draft
 
+Historical results for f389eea7a. See [REVISION-2.md](REVISION-2.md) for
+the corrected shared tests and new local runs, including both JS targets.
+
 Date: 2026-09-22. Host: Linux x64, 5.8 GiB RAM, no swap.
 Base: `9b478d0341465fabaad64b3701d40b504c1a047f`.
 Tests: `c82eca7a00cefe9ef1a7fecbd73203d570046671`.

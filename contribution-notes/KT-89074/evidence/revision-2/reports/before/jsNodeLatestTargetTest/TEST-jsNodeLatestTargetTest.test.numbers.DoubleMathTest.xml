@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-09-22T07:29:58.283Z" hostname="ubuntu-dev" time="0.077">
+  <properties/>
+  <testcase name="trigonometric[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.012"/>
+  <testcase name="hyperbolic[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicSin[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicCos[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="inverseHyperbolicTan[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="cubeRoots[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="powers[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="logarithms[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="rounding[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="roundingConversion[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="roundingConversionNearHalfIntegers[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="roundingConversionAtIntegralPrecision[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="roundingConversionAtIntegerLimits[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="absoluteValue[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="signs[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="nextAndPrev[js, node]" classname="jsNodeLatestTargetTest.test.numbers.DoubleMathTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

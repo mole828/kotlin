@@ -1,0 +1,138 @@
+{
+  "jsNodeTest": {
+    "totals": {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "new_tests": [
+      [
+        "jsNodeTest.test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "jsNodeTest.test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "jsNodeTest.test.numbers.DoubleMathTest",
+        "roundingConversionNearHalfIntegers"
+      ],
+      [
+        "jsNodeTest.test.numbers.FloatMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "jsNodeTest.test.numbers.FloatMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "jsNodeTest.test.numbers.FloatMathTest",
+        "roundingConversionNearHalfIntegers"
+      ]
+    ]
+  },
+  "jsNodeLatestTargetTest": {
+    "totals": {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "new_tests": [
+      [
+        "jsNodeLatestTargetTest.test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "jsNodeLatestTargetTest.test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "jsNodeLatestTargetTest.test.numbers.DoubleMathTest",
+        "roundingConversionNearHalfIntegers"
+      ],
+      [
+        "jsNodeLatestTargetTest.test.numbers.FloatMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "jsNodeLatestTargetTest.test.numbers.FloatMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "jsNodeLatestTargetTest.test.numbers.FloatMathTest",
+        "roundingConversionNearHalfIntegers"
+      ]
+    ]
+  },
+  "wasmJsNodeTest": {
+    "totals": {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "new_tests": [
+      [
+        "wasmJsNodeTest.test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "wasmJsNodeTest.test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "wasmJsNodeTest.test.numbers.DoubleMathTest",
+        "roundingConversionNearHalfIntegers"
+      ],
+      [
+        "wasmJsNodeTest.test.numbers.FloatMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "wasmJsNodeTest.test.numbers.FloatMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "wasmJsNodeTest.test.numbers.FloatMathTest",
+        "roundingConversionNearHalfIntegers"
+      ]
+    ]
+  },
+  "jvmTest": {
+    "totals": {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1
+    },
+    "new_tests": [
+      [
+        "test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "test.numbers.DoubleMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "test.numbers.DoubleMathTest",
+        "roundingConversionNearHalfIntegers"
+      ],
+      [
+        "test.numbers.FloatMathTest",
+        "roundingConversionAtIntegerLimits"
+      ],
+      [
+        "test.numbers.FloatMathTest",
+        "roundingConversionAtIntegralPrecision"
+      ],
+      [
+        "test.numbers.FloatMathTest",
+        "roundingConversionNearHalfIntegers"
+      ]
+    ]
+  }
+}

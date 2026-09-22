@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jsNodeTest.test.numbers.FloatMathTest" tests="16" skipped="1" failures="0" errors="0" timestamp="2026-09-22T07:34:14.479Z" hostname="ubuntu-dev" time="0.007">
+  <properties/>
+  <testcase name="floatRangeConversion[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="trigonometric[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="hyperbolic[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicSin[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="inverseHyperbolicCos[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="inverseHyperbolicTan[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="cubeRoots[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="powers[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="logarithms[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="rounding[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="roundingConversion[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="roundingConversionNearHalfIntegers[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="roundingConversionAtIntegralPrecision[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="roundingConversionAtIntegerLimits[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.001"/>
+  <testcase name="absoluteValue[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <testcase name="signs[js, node]" classname="jsNodeTest.test.numbers.FloatMathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+{
+  "head": "a1e50f1f36ad0ad5d36379b5a24743aa11d4dffc",
+  "test_sha256": "e911db66c462d6cff5e69e2d19271e505fd33e86693cfc14310003d3dadd533e",
+  "runs": [
+    {
+      "label": "before",
+      "library": "/home/mole/repo/kotlin-contributions/kotlin-rounding-contribution/multiplatform-2026-09-22/native-stdlib-before",
+      "compile_exit": 0,
+      "test_exit": 1
+    },
+    {
+      "label": "after-default",
+      "library": "/home/mole/repo/kotlin-contributions/kotlin-rounding-contribution/multiplatform-2026-09-22/native-stdlib-after",
+      "compile_exit": 0,
+      "test_exit": 0
+    },
+    {
+      "label": "after-opt",
+      "library": "/home/mole/repo/kotlin-contributions/kotlin-rounding-contribution/multiplatform-2026-09-22/native-stdlib-after",
+      "compile_exit": 0,
+      "test_exit": 0
+    }
+  ]
+}

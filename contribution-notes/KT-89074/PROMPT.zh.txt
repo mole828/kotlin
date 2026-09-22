@@ -2,15 +2,18 @@
 
 仓库：https://github.com/mole828/kotlin
 源码分支：fix/kt-89074-multiplatform
-固定修复提交：f389eea7a8bb1c4fd88e09c3eb6037811361eeae
+固定修复提交：a1e50f1f36ad0ad5d36379b5a24743aa11d4dffc
 只有测试的提交：c82eca7a00cefe9ef1a7fecbd73203d570046671
 
 另请拉取 validation/kt-89074-multiplatform 分支，读取
-contribution-notes/KT-89074/README.md、RESULTS.md 和 REASONING.md。
+contribution-notes/KT-89074/README.md、REVISION-2.md 和 REASONING.md。
 在独立 checkout/worktree 中按说明实际构建并验证，不覆盖现有工作。
 没有 JetBrains IDE MCP 时允许使用 CLI。
 
-优先验证本机 Native 目标（M2=macos_arm64，Windows x64=mingw_x64，
+先按 README 的方法级筛选实际运行普通 JS 和 latestTarget，各应发现 36 项数学测试。
+确认每个报告非零测试，并且六个新增方法均实际执行。
+
+然后验证本机 Native 目标（M2=macos_arm64，Windows x64=mingw_x64，
 Linux x64=linux_x64），使用本分支源码构建的 stdlib，运行完整 MathTest.kt，
 分别验证默认模式和 -opt，并对照只有测试的提交确认原错误能复现。
 再按资源补 JVM/JS 或 Wasm-JS/Wasm-WASI；资源允许时运行官方完整

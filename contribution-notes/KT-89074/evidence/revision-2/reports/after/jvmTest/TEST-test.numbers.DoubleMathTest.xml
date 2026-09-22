@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DoubleMathTest[jvm]" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-09-22T07:38:00.791Z" hostname="ubuntu-dev" time="0.25">
+  <properties/>
+  <testcase name="cubeRoots()[jvm]" classname="test.numbers.DoubleMathTest" time="0.045"/>
+  <testcase name="powers()[jvm]" classname="test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="absoluteValue()[jvm]" classname="test.numbers.DoubleMathTest" time="0.028"/>
+  <testcase name="roundingConversionNearHalfIntegers()[jvm]" classname="test.numbers.DoubleMathTest" time="0.004"/>
+  <testcase name="logarithms()[jvm]" classname="test.numbers.DoubleMathTest" time="0.004"/>
+  <testcase name="rounding()[jvm]" classname="test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="signs()[jvm]" classname="test.numbers.DoubleMathTest" time="0.008"/>
+  <testcase name="roundingConversionAtIntegerLimits()[jvm]" classname="test.numbers.DoubleMathTest" time="0.004"/>
+  <testcase name="nextAndPrev()[jvm]" classname="test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="roundingConversionAtIntegralPrecision()[jvm]" classname="test.numbers.DoubleMathTest" time="0.002"/>
+  <testcase name="hyperbolic()[jvm]" classname="test.numbers.DoubleMathTest" time="0.0"/>
+  <testcase name="roundingConversion()[jvm]" classname="test.numbers.DoubleMathTest" time="0.031"/>
+  <testcase name="inverseHyperbolicCos()[jvm]" classname="test.numbers.DoubleMathTest" time="0.001"/>
+  <testcase name="inverseHyperbolicSin()[jvm]" classname="test.numbers.DoubleMathTest" time="0.001"/>
+  <testcase name="inverseHyperbolicTan()[jvm]" classname="test.numbers.DoubleMathTest" time="0.001"/>
+  <testcase name="trigonometric()[jvm]" classname="test.numbers.DoubleMathTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

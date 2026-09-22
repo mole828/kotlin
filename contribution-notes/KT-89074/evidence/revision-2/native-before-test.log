@@ -1,0 +1,177 @@
+[==========] Running 35 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 16 tests from test.numbers.DoubleMathTest
+[ RUN      ] test.numbers.DoubleMathTest.trigonometric
+[       OK ] test.numbers.DoubleMathTest.trigonometric (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.hyperbolic
+[       OK ] test.numbers.DoubleMathTest.hyperbolic (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.inverseHyperbolicSin
+[       OK ] test.numbers.DoubleMathTest.inverseHyperbolicSin (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.inverseHyperbolicCos
+[       OK ] test.numbers.DoubleMathTest.inverseHyperbolicCos (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.inverseHyperbolicTan
+[       OK ] test.numbers.DoubleMathTest.inverseHyperbolicTan (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.cubeRoots
+[       OK ] test.numbers.DoubleMathTest.cubeRoots (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.powers
+[       OK ] test.numbers.DoubleMathTest.powers (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.logarithms
+[       OK ] test.numbers.DoubleMathTest.logarithms (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.rounding
+[       OK ] test.numbers.DoubleMathTest.rounding (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversion
+[       OK ] test.numbers.DoubleMathTest.roundingConversion (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversionNearHalfIntegers
+kotlin.AssertionError: 0.49999999999999994.roundToLong(). Expected <0>, actual <1>.
+    at 0   math-before.kexe                    0x250784           kfun:kotlin.AssertionError#<init>(kotlin.Any?){} + 244
+    at 1   math-before.kexe                    0x27587b           kfun:kotlin.test.DefaultAsserter#fail(kotlin.String?){}kotlin.Nothing + 171
+    at 2   math-before.kexe                    0x321cef           kfun:kotlin.test.Asserter#fail(kotlin.String?){}kotlin.Nothing + 47
+    at 3   math-before.kexe                    0x273571           kfun:kotlin.test.Asserter#assertTrue(kotlin.Function0<kotlin.String?>;kotlin.Boolean){}-impl + 209
+    at 4   math-before.kexe                    0x273858           kfun:kotlin.test.Asserter#assertEquals(kotlin.String?;kotlin.Any?;kotlin.Any?){}-impl + 376
+    at 5   math-before.kexe                    0x2754ef           kfun:kotlin.test#assertEquals(0:0;0:0;kotlin.String?){0§<kotlin.Any?>} + 239
+    at 6   math-before.kexe                    0x306947           kfun:test.numbers.DoubleMathTest#roundingConversionNearHalfIntegers(){} + 2711
+    at 7   math-before.kexe                    0x31f8bb           kfun:test.numbers.$DoubleMathTest$test$0.$DoubleMathTest$test$0$$FUNCTION_REFERENCE_FOR$roundingConversionNearHalfIntegers$10.$<bridge-DNC>invoke(test.numbers.DoubleMathTest){}#internal + 251
+    at 8   math-before.kexe                    0x26d58e           kfun:kotlin.native.internal.test.BaseClassSuite.TestCase#doRun(){} + 414
+    at 9   math-before.kexe                    0x26f689           kfun:kotlin.native.internal.test.TestCase#run(){}-impl + 233
+    at 10  math-before.kexe                    0x264473           kfun:kotlin.native.internal.test.TestRunner.runIteration#internal + 6915
+    at 11  math-before.kexe                    0x2656a8           kfun:kotlin.native.internal.test.TestRunner#run(){}kotlin.Int + 984
+    at 12  math-before.kexe                    0x25e1a3           kfun:kotlin.native.internal.test#testLauncherEntryPoint(kotlin.Array<kotlin.String>){}kotlin.Int + 371
+    at 13  math-before.kexe                    0x25e006           kfun:kotlin.native.internal.test#main(kotlin.Array<kotlin.String>){} + 22
+    at 14  math-before.kexe                    0x25e7e0           Konan_start + 112
+    at 15  math-before.kexe                    0x32fc32           Init_and_run_start + 178
+    at 16  math-before.kexe                    0x32fcca           Konan_main + 10
+    at 17  libc.so.6                           0x765ddd62a600     0x0 + 130145518265856
+    at 18  libc.so.6                           0x765ddd62a717     __libc_start_main + 135
+    at 19  math-before.kexe                    0x24e038           0x0 + 2416696
+[  FAILED  ] test.numbers.DoubleMathTest.roundingConversionNearHalfIntegers (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversionAtIntegralPrecision
+kotlin.AssertionError: 4.503599627370497E15.roundToLong(). Expected <4503599627370497>, actual <4503599627370498>.
+    at 0   math-before.kexe                    0x250784           kfun:kotlin.AssertionError#<init>(kotlin.Any?){} + 244
+    at 1   math-before.kexe                    0x27587b           kfun:kotlin.test.DefaultAsserter#fail(kotlin.String?){}kotlin.Nothing + 171
+    at 2   math-before.kexe                    0x321cef           kfun:kotlin.test.Asserter#fail(kotlin.String?){}kotlin.Nothing + 47
+    at 3   math-before.kexe                    0x273571           kfun:kotlin.test.Asserter#assertTrue(kotlin.Function0<kotlin.String?>;kotlin.Boolean){}-impl + 209
+    at 4   math-before.kexe                    0x273858           kfun:kotlin.test.Asserter#assertEquals(kotlin.String?;kotlin.Any?;kotlin.Any?){}-impl + 376
+    at 5   math-before.kexe                    0x2754ef           kfun:kotlin.test#assertEquals(0:0;0:0;kotlin.String?){0§<kotlin.Any?>} + 239
+    at 6   math-before.kexe                    0x3076f7           kfun:test.numbers.DoubleMathTest#roundingConversionAtIntegralPrecision(){} + 2375
+    at 7   math-before.kexe                    0x31f9fb           kfun:test.numbers.$DoubleMathTest$test$0.$DoubleMathTest$test$0$$FUNCTION_REFERENCE_FOR$roundingConversionAtIntegralPrecision$11.$<bridge-DNC>invoke(test.numbers.DoubleMathTest){}#internal + 251
+    at 8   math-before.kexe                    0x26d58e           kfun:kotlin.native.internal.test.BaseClassSuite.TestCase#doRun(){} + 414
+    at 9   math-before.kexe                    0x26f689           kfun:kotlin.native.internal.test.TestCase#run(){}-impl + 233
+    at 10  math-before.kexe                    0x264473           kfun:kotlin.native.internal.test.TestRunner.runIteration#internal + 6915
+    at 11  math-before.kexe                    0x2656a8           kfun:kotlin.native.internal.test.TestRunner#run(){}kotlin.Int + 984
+    at 12  math-before.kexe                    0x25e1a3           kfun:kotlin.native.internal.test#testLauncherEntryPoint(kotlin.Array<kotlin.String>){}kotlin.Int + 371
+    at 13  math-before.kexe                    0x25e006           kfun:kotlin.native.internal.test#main(kotlin.Array<kotlin.String>){} + 22
+    at 14  math-before.kexe                    0x25e7e0           Konan_start + 112
+    at 15  math-before.kexe                    0x32fc32           Init_and_run_start + 178
+    at 16  math-before.kexe                    0x32fcca           Konan_main + 10
+    at 17  libc.so.6                           0x765ddd62a600     0x0 + 130145518265856
+    at 18  libc.so.6                           0x765ddd62a717     __libc_start_main + 135
+    at 19  math-before.kexe                    0x24e038           0x0 + 2416696
+[  FAILED  ] test.numbers.DoubleMathTest.roundingConversionAtIntegralPrecision (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversionAtIntegerLimits
+[       OK ] test.numbers.DoubleMathTest.roundingConversionAtIntegerLimits (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.absoluteValue
+[       OK ] test.numbers.DoubleMathTest.absoluteValue (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.signs
+[       OK ] test.numbers.DoubleMathTest.signs (1 ms)
+[ RUN      ] test.numbers.DoubleMathTest.nextAndPrev
+[       OK ] test.numbers.DoubleMathTest.nextAndPrev (0 ms)
+[----------] 16 tests from test.numbers.DoubleMathTest (3 ms total)
+
+[----------] 16 tests from test.numbers.FloatMathTest
+[ RUN      ] test.numbers.FloatMathTest.trigonometric
+[       OK ] test.numbers.FloatMathTest.trigonometric (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.hyperbolic
+[       OK ] test.numbers.FloatMathTest.hyperbolic (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.inverseHyperbolicSin
+[       OK ] test.numbers.FloatMathTest.inverseHyperbolicSin (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.inverseHyperbolicCos
+[       OK ] test.numbers.FloatMathTest.inverseHyperbolicCos (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.inverseHyperbolicTan
+[       OK ] test.numbers.FloatMathTest.inverseHyperbolicTan (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.cubeRoots
+[       OK ] test.numbers.FloatMathTest.cubeRoots (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.powers
+[       OK ] test.numbers.FloatMathTest.powers (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.logarithms
+[       OK ] test.numbers.FloatMathTest.logarithms (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.rounding
+[       OK ] test.numbers.FloatMathTest.rounding (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversion
+[       OK ] test.numbers.FloatMathTest.roundingConversion (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversionNearHalfIntegers
+kotlin.AssertionError: 0.49999997.roundToLong(). Expected <0>, actual <1>.
+    at 0   math-before.kexe                    0x250784           kfun:kotlin.AssertionError#<init>(kotlin.Any?){} + 244
+    at 1   math-before.kexe                    0x27587b           kfun:kotlin.test.DefaultAsserter#fail(kotlin.String?){}kotlin.Nothing + 171
+    at 2   math-before.kexe                    0x321cef           kfun:kotlin.test.Asserter#fail(kotlin.String?){}kotlin.Nothing + 47
+    at 3   math-before.kexe                    0x273571           kfun:kotlin.test.Asserter#assertTrue(kotlin.Function0<kotlin.String?>;kotlin.Boolean){}-impl + 209
+    at 4   math-before.kexe                    0x273858           kfun:kotlin.test.Asserter#assertEquals(kotlin.String?;kotlin.Any?;kotlin.Any?){}-impl + 376
+    at 5   math-before.kexe                    0x2754ef           kfun:kotlin.test#assertEquals(0:0;0:0;kotlin.String?){0§<kotlin.Any?>} + 239
+    at 6   math-before.kexe                    0x316e67           kfun:test.numbers.FloatMathTest#roundingConversionNearHalfIntegers(){} + 2711
+    at 7   math-before.kexe                    0x320edb           kfun:test.numbers.$FloatMathTest$test$1.$FloatMathTest$test$1$$FUNCTION_REFERENCE_FOR$roundingConversionNearHalfIntegers$27.$<bridge-DNC>invoke(test.numbers.FloatMathTest){}#internal + 251
+    at 8   math-before.kexe                    0x26d58e           kfun:kotlin.native.internal.test.BaseClassSuite.TestCase#doRun(){} + 414
+    at 9   math-before.kexe                    0x26f689           kfun:kotlin.native.internal.test.TestCase#run(){}-impl + 233
+    at 10  math-before.kexe                    0x264473           kfun:kotlin.native.internal.test.TestRunner.runIteration#internal + 6915
+    at 11  math-before.kexe                    0x2656a8           kfun:kotlin.native.internal.test.TestRunner#run(){}kotlin.Int + 984
+    at 12  math-before.kexe                    0x25e1a3           kfun:kotlin.native.internal.test#testLauncherEntryPoint(kotlin.Array<kotlin.String>){}kotlin.Int + 371
+    at 13  math-before.kexe                    0x25e006           kfun:kotlin.native.internal.test#main(kotlin.Array<kotlin.String>){} + 22
+    at 14  math-before.kexe                    0x25e7e0           Konan_start + 112
+    at 15  math-before.kexe                    0x32fc32           Init_and_run_start + 178
+    at 16  math-before.kexe                    0x32fcca           Konan_main + 10
+    at 17  libc.so.6                           0x765ddd62a600     0x0 + 130145518265856
+    at 18  libc.so.6                           0x765ddd62a717     __libc_start_main + 135
+    at 19  math-before.kexe                    0x24e038           0x0 + 2416696
+[  FAILED  ] test.numbers.FloatMathTest.roundingConversionNearHalfIntegers (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversionAtIntegralPrecision
+kotlin.AssertionError: 8388609.0.roundToLong(). Expected <8388609>, actual <8388610>.
+    at 0   math-before.kexe                    0x250784           kfun:kotlin.AssertionError#<init>(kotlin.Any?){} + 244
+    at 1   math-before.kexe                    0x27587b           kfun:kotlin.test.DefaultAsserter#fail(kotlin.String?){}kotlin.Nothing + 171
+    at 2   math-before.kexe                    0x321cef           kfun:kotlin.test.Asserter#fail(kotlin.String?){}kotlin.Nothing + 47
+    at 3   math-before.kexe                    0x273571           kfun:kotlin.test.Asserter#assertTrue(kotlin.Function0<kotlin.String?>;kotlin.Boolean){}-impl + 209
+    at 4   math-before.kexe                    0x273858           kfun:kotlin.test.Asserter#assertEquals(kotlin.String?;kotlin.Any?;kotlin.Any?){}-impl + 376
+    at 5   math-before.kexe                    0x2754ef           kfun:kotlin.test#assertEquals(0:0;0:0;kotlin.String?){0§<kotlin.Any?>} + 239
+    at 6   math-before.kexe                    0x317c17           kfun:test.numbers.FloatMathTest#roundingConversionAtIntegralPrecision(){} + 2375
+    at 7   math-before.kexe                    0x32101b           kfun:test.numbers.$FloatMathTest$test$1.$FloatMathTest$test$1$$FUNCTION_REFERENCE_FOR$roundingConversionAtIntegralPrecision$28.$<bridge-DNC>invoke(test.numbers.FloatMathTest){}#internal + 251
+    at 8   math-before.kexe                    0x26d58e           kfun:kotlin.native.internal.test.BaseClassSuite.TestCase#doRun(){} + 414
+    at 9   math-before.kexe                    0x26f689           kfun:kotlin.native.internal.test.TestCase#run(){}-impl + 233
+    at 10  math-before.kexe                    0x264473           kfun:kotlin.native.internal.test.TestRunner.runIteration#internal + 6915
+    at 11  math-before.kexe                    0x2656a8           kfun:kotlin.native.internal.test.TestRunner#run(){}kotlin.Int + 984
+    at 12  math-before.kexe                    0x25e1a3           kfun:kotlin.native.internal.test#testLauncherEntryPoint(kotlin.Array<kotlin.String>){}kotlin.Int + 371
+    at 13  math-before.kexe                    0x25e006           kfun:kotlin.native.internal.test#main(kotlin.Array<kotlin.String>){} + 22
+    at 14  math-before.kexe                    0x25e7e0           Konan_start + 112
+    at 15  math-before.kexe                    0x32fc32           Init_and_run_start + 178
+    at 16  math-before.kexe                    0x32fcca           Konan_main + 10
+    at 17  libc.so.6                           0x765ddd62a600     0x0 + 130145518265856
+    at 18  libc.so.6                           0x765ddd62a717     __libc_start_main + 135
+    at 19  math-before.kexe                    0x24e038           0x0 + 2416696
+[  FAILED  ] test.numbers.FloatMathTest.roundingConversionAtIntegralPrecision (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversionAtIntegerLimits
+[       OK ] test.numbers.FloatMathTest.roundingConversionAtIntegerLimits (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.absoluteValue
+[       OK ] test.numbers.FloatMathTest.absoluteValue (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.signs
+[       OK ] test.numbers.FloatMathTest.signs (0 ms)
+[----------] 16 tests from test.numbers.FloatMathTest (1 ms total)
+
+[----------] 4 tests from test.numbers.IntegerMathTest
+[ RUN      ] test.numbers.IntegerMathTest.intSigns
+[       OK ] test.numbers.IntegerMathTest.intSigns (0 ms)
+[ RUN      ] test.numbers.IntegerMathTest.absoluteValue
+[       OK ] test.numbers.IntegerMathTest.absoluteValue (0 ms)
+[ RUN      ] test.numbers.IntegerMathTest.longSigns
+[       OK ] test.numbers.IntegerMathTest.longSigns (0 ms)
+[ RUN      ] test.numbers.IntegerMathTest.longAbsoluteValue
+[       OK ] test.numbers.IntegerMathTest.longAbsoluteValue (0 ms)
+[----------] 4 tests from test.numbers.IntegerMathTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 36 tests from 3 test cases ran. (4 ms total)
+[  PASSED  ] 31 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] test.numbers.FloatMathTest.floatRangeConversion
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] test.numbers.DoubleMathTest.roundingConversionNearHalfIntegers
+[  FAILED  ] test.numbers.DoubleMathTest.roundingConversionAtIntegralPrecision
+[  FAILED  ] test.numbers.FloatMathTest.roundingConversionNearHalfIntegers
+[  FAILED  ] test.numbers.FloatMathTest.roundingConversionAtIntegralPrecision
+
+4 FAILED TESTS

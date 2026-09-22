@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jsNodeTest.test.numbers.IntegerMathTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-09-22T07:34:14.486Z" hostname="ubuntu-dev" time="0.003">
+  <properties/>
+  <testcase name="intSigns[js, node]" classname="jsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <testcase name="absoluteValue[js, node]" classname="jsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <testcase name="longSigns[js, node]" classname="jsNodeTest.test.numbers.IntegerMathTest" time="0.001"/>
+  <testcase name="longAbsoluteValue[js, node]" classname="jsNodeTest.test.numbers.IntegerMathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

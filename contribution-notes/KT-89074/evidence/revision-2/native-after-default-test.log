@@ -1,0 +1,86 @@
+[==========] Running 35 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 16 tests from test.numbers.DoubleMathTest
+[ RUN      ] test.numbers.DoubleMathTest.trigonometric
+[       OK ] test.numbers.DoubleMathTest.trigonometric (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.hyperbolic
+[       OK ] test.numbers.DoubleMathTest.hyperbolic (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.inverseHyperbolicSin
+[       OK ] test.numbers.DoubleMathTest.inverseHyperbolicSin (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.inverseHyperbolicCos
+[       OK ] test.numbers.DoubleMathTest.inverseHyperbolicCos (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.inverseHyperbolicTan
+[       OK ] test.numbers.DoubleMathTest.inverseHyperbolicTan (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.cubeRoots
+[       OK ] test.numbers.DoubleMathTest.cubeRoots (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.powers
+[       OK ] test.numbers.DoubleMathTest.powers (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.logarithms
+[       OK ] test.numbers.DoubleMathTest.logarithms (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.rounding
+[       OK ] test.numbers.DoubleMathTest.rounding (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversion
+[       OK ] test.numbers.DoubleMathTest.roundingConversion (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversionNearHalfIntegers
+[       OK ] test.numbers.DoubleMathTest.roundingConversionNearHalfIntegers (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversionAtIntegralPrecision
+[       OK ] test.numbers.DoubleMathTest.roundingConversionAtIntegralPrecision (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.roundingConversionAtIntegerLimits
+[       OK ] test.numbers.DoubleMathTest.roundingConversionAtIntegerLimits (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.absoluteValue
+[       OK ] test.numbers.DoubleMathTest.absoluteValue (0 ms)
+[ RUN      ] test.numbers.DoubleMathTest.signs
+[       OK ] test.numbers.DoubleMathTest.signs (1 ms)
+[ RUN      ] test.numbers.DoubleMathTest.nextAndPrev
+[       OK ] test.numbers.DoubleMathTest.nextAndPrev (0 ms)
+[----------] 16 tests from test.numbers.DoubleMathTest (2 ms total)
+
+[----------] 16 tests from test.numbers.FloatMathTest
+[ RUN      ] test.numbers.FloatMathTest.trigonometric
+[       OK ] test.numbers.FloatMathTest.trigonometric (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.hyperbolic
+[       OK ] test.numbers.FloatMathTest.hyperbolic (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.inverseHyperbolicSin
+[       OK ] test.numbers.FloatMathTest.inverseHyperbolicSin (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.inverseHyperbolicCos
+[       OK ] test.numbers.FloatMathTest.inverseHyperbolicCos (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.inverseHyperbolicTan
+[       OK ] test.numbers.FloatMathTest.inverseHyperbolicTan (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.cubeRoots
+[       OK ] test.numbers.FloatMathTest.cubeRoots (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.powers
+[       OK ] test.numbers.FloatMathTest.powers (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.logarithms
+[       OK ] test.numbers.FloatMathTest.logarithms (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.rounding
+[       OK ] test.numbers.FloatMathTest.rounding (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversion
+[       OK ] test.numbers.FloatMathTest.roundingConversion (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversionNearHalfIntegers
+[       OK ] test.numbers.FloatMathTest.roundingConversionNearHalfIntegers (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversionAtIntegralPrecision
+[       OK ] test.numbers.FloatMathTest.roundingConversionAtIntegralPrecision (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.roundingConversionAtIntegerLimits
+[       OK ] test.numbers.FloatMathTest.roundingConversionAtIntegerLimits (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.absoluteValue
+[       OK ] test.numbers.FloatMathTest.absoluteValue (0 ms)
+[ RUN      ] test.numbers.FloatMathTest.signs
+[       OK ] test.numbers.FloatMathTest.signs (0 ms)
+[----------] 16 tests from test.numbers.FloatMathTest (0 ms total)
+
+[----------] 4 tests from test.numbers.IntegerMathTest
+[ RUN      ] test.numbers.IntegerMathTest.intSigns
+[       OK ] test.numbers.IntegerMathTest.intSigns (0 ms)
+[ RUN      ] test.numbers.IntegerMathTest.absoluteValue
+[       OK ] test.numbers.IntegerMathTest.absoluteValue (0 ms)
+[ RUN      ] test.numbers.IntegerMathTest.longSigns
+[       OK ] test.numbers.IntegerMathTest.longSigns (0 ms)
+[ RUN      ] test.numbers.IntegerMathTest.longAbsoluteValue
+[       OK ] test.numbers.IntegerMathTest.longAbsoluteValue (0 ms)
+[----------] 4 tests from test.numbers.IntegerMathTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 36 tests from 3 test cases ran. (2 ms total)
+[  PASSED  ] 35 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] test.numbers.FloatMathTest.floatRangeConversion
